@@ -36,6 +36,22 @@
 3. ```python main_ddpir.py --opt configs/inpaint.yaml```    -> inpainting
 
 
+# Example Noisy Images Under Test
+
+*Note: The selected images are drawn from multiple sources online.*
+
+## Salt and Pepper (Impuse) Noise
+1. [impulse]Fabio.png ```https://roflmaostc.github.io/Noise.jl/stable/man/salt_pepper/```
+2. [impulse]Lady.png ```https://www.researchgate.net/figure/Noisy-input-image-including-10-impulse-noise-where-6553-out-of-256-256-65-536_fig4_372271940```
+
+## Poisson Noise Images
+1. [poisson]noisy_saturn.png ```https://josephsalmon.eu/code/PatchPCA_denoising.php```
+2. [poisson]cameraman.png ```https://www.researchgate.net/publication/357291535_Nearly_Exact_Discrepancy_Principle_for_Low-Count_Poisson_Image_Restoration```
+
+## Gaussian Noise Image
+1. [gaussian]noisy_brain.png ```https://www.researchgate.net/figure/First-column-Images-corrupted-with-Poisson-and-Gaussian-noise-Second-column-Denoising_fig4_309610242```
+2. [gaussian]whitenoise.png ```https://www.researchgate.net/figure/a-Gaussian-White-Noise-of-s25-method-noise-of-b-BF-c-MRBF-d-WT-e-GFMT_fig2_235644027```
+
 # Train Your Own Model
 - To train a new diffusion model, please follow [OpenAI Guided Diffusion](https://github.com/openai/guided-diffusion)
 
